@@ -1,48 +1,39 @@
 # Project Name
-> Outline a brief description of your project.
+> A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. 
+> <br/><br/>A bike sharing company wants to know: 
+><br/>Which variables are significant in predicting the demand for shared bikes.
+><br/>How well those variables describe the bike demands
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- project Overview:
+- A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. So total count of the bike available and based on what all features this total count of bike should depend company wants to analyse this.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Dataset : Bike Sharing dataset ( day.csv)
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Most positively impacting features : temp & yr
+-from scatter plot also it seems higher the temp , people use to prefer more bike rides as they prefer to have sunlight as data set belong to a cold country
+and with year people are more using the bike as compared to previous year
+-<br/>Most negatively impacting features : mist, spring season , snow as seems people don't prefer to go out or use bike in these conditions
+-<br/>Working day , winter season , and month ( april/oct/sept) weekday/ working day has moderate impact¶
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- numpy, pandas, matplotlib, seaborn, sckit-learn, statsmodels
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by Abhinav Swarup https://www.linkedin.com/in/abhinav-swarup-55b49a58/ - feel free to contact me!
 
 
 <!-- Optional -->

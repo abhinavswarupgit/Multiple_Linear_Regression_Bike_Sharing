@@ -1,8 +1,15 @@
 # Project Name
-> A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. 
-> <br/><br/>A bike sharing company wants to know: 
-><br/>Which variables are significant in predicting the demand for shared bikes.
-><br/>How well those variables describe the bike demands
+> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+
+The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+
+The company wants to know:
+
+Which variables are significant in predicting the price of a house, and
+
+How well those variables describe the price of a house.
+
+Also, determine the optimal value of lambda for ridge and lasso regression.
 
 
 ## Table of Contents
@@ -15,22 +22,18 @@
 ## General Information
 - Provide general information about your project here.
 - project Overview:
-- A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. So total count of the bike available and based on what all features this total count of bike should depend company wants to analyse this.
+- We need to analyze how ridge & lasso preven the overfit & underfit of the model & it helps to predict the Most Important Feature which is the predictor variable for sale Price of the house
 
-- Dataset : Bike Sharing dataset ( day.csv)
+- Dataset : train.csv
 
 ## Conclusions
-- Most positively impacting features : temp & yr
--from scatter plot also it seems higher the temp , people use to prefer more bike rides as they prefer to have sunlight as data set belong to a cold country
-and with year people are more using the bike as compared to previous year
--<br/>Most negatively impacting features : mist, spring season , snow as seems people don't prefer to go out or use bike in these conditions
--<br/>Working day , winter season , and month ( april/oct/sept) weekday/ working day has moderate impact¶
+- Ridge & lasso helps to prevent overfit & underfit as well for ridge the optimal lambda is 10 & lasso optimal lambda is 0.001
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- numpy, pandas, matplotlib, seaborn, sckit-learn, statsmodels
+- numpy, pandas, matplotlib, seaborn, sckit-learn, ridge & lasso
 
 ## Contact
 Created by Abhinav Swarup https://www.linkedin.com/in/abhinav-swarup-55b49a58/ - feel free to contact me!
